@@ -4,7 +4,7 @@ Aprendendo a criar uma documentação de um Design System no Storybook.
 
 ## Components
 
-- [ ] Text
+- [x] Text
 - [ ] Heading
 - [x] Box
 - [ ] TextInput
