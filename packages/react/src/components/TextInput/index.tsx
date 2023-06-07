@@ -1,15 +1,15 @@
 import { ComponentProps } from 'react'
-import * as C from './styles'
+import * as S from './styles'
 
-export type TextInputProps = ComponentProps<typeof C.Input> & {
+export type TextInputProps = ComponentProps<typeof S.Input> & {
   prefix?: string
 }
 
 export const TextInput = ({ prefix, ...props }: TextInputProps) => {
   return (
-    <C.Container>
-      {!!prefix && <C.Prefix>{prefix}</C.Prefix>}
-      <C.Input {...props} />
-    </C.Container>
+    <S.Container>
+      {!!prefix && <S.Prefix>{prefix}</S.Prefix>}
+      <S.Input {...props} />
+    </S.Container>
   )
 }
