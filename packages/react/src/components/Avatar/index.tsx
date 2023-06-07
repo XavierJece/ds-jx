@@ -2,15 +2,15 @@ import { ComponentProps } from 'react'
 import * as S from './styles'
 import { User } from 'phosphor-react'
 
-export type AvatarProps = ComponentProps<typeof S.AvatarImage>
+export type AvatarProps = ComponentProps<typeof S.Image>
 
 export const Avatar = (props: AvatarProps) => {
   return (
-    <S.AvatarContainer>
-      <S.AvatarImage {...props} />
-      <S.AvatarFallback delayMs={600}>
+    <S.Container>
+      <S.Image {...props} />
+      <S.Fallback delayMs={600}>
         <User />
-      </S.AvatarFallback>
-    </S.AvatarContainer>
+      </S.Fallback>
+    </S.Container>
   )
 }
