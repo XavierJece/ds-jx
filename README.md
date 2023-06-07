@@ -8,7 +8,7 @@ Aprendendo a criar uma documentação de um Design System no Storybook.
 - [x] Heading
 - [x] Box
 - [x] Button
-- [ ] TextInput
+- [X] TextInput
 - [ ] TextArea
 - [ ] CheckBox
 - [x] Avatar
