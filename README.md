@@ -10,5 +10,5 @@ Aprendendo a criar uma documentação de um Design System no Storybook.
 - [ ] TextInput
 - [ ] TextArea
 - [ ] CheckBox
-- [ ] Avatar
+- [x] Avatar
 - [ ] MultiStep
