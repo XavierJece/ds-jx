@@ -12,4 +12,4 @@ Aprendendo a criar uma documentação de um Design System no Storybook.
 - [x] TextArea
 - [x] CheckBox
 - [x] Avatar
-- [ ] MultiStep
+- [x] MultiStep
