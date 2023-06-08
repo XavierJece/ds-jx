@@ -10,6 +10,14 @@ export default {
     src: 'https://github.com/xavierjece.png',
     alt: 'Jecé Xavier',
   },
+
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Default: StoryObj<AvatarProps> = {}
