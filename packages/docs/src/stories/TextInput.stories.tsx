@@ -16,6 +16,11 @@ export default {
         type: 'inline-radio',
       },
     },
+    placeholder: {
+      control: {
+        type: 'text',
+      },
+    },
   },
 
   decorators: [
