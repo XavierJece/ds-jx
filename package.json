@@ -4,8 +4,8 @@
   "packages/*"
  ],
  "scripts": {
-    "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+  "dev": "turbo run dev --parallel",
+  "build": "turbo run build"
  },
  "dependencies": {
   "@storybook/source-loader": "^7.0.18"
