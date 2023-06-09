@@ -5,7 +5,18 @@ export default {
   title: 'Form/Text Input',
   component: TextInput,
 
-  args: {},
+  args: {
+    size: 'md',
+  },
+
+  argTypes: {
+    size: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
 
   decorators: [
     (Story) => {
@@ -46,5 +57,11 @@ export const WithPrefixAndPlaceholder: StoryObj<TextInputProps> = {
   args: {
     prefix: 'my prefix/',
     placeholder: 'it-is-a-placeholder',
+  },
+}
+
+export const Small: StoryObj<TextInputProps> = {
+  args: {
+    size: 'sm',
   },
 }

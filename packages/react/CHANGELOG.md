@@ -1,5 +1,11 @@
 # @designer-jx/react
 
+## 2.0.1
+
+### Patch Changes
+
+- Add option gto pass reference to TextInput and adjust some styles
+
 ## 2.0.0
 
 ### Major Changes
