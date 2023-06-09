@@ -5,12 +5,17 @@
  ],
  "scripts": {
   "dev": "turbo run dev --parallel",
-  "build": "turbo run build"
+  "build": "turbo run build",
+  "changeset": "changeset",
+  "version-packages": "changeset version",
+  "release": "turbo run build --filter=packages/docs && changeset publish"
+
  },
  "dependencies": {
   "@storybook/source-loader": "^7.0.18"
  },
  "devDependencies": {
+  "@changesets/cli": "^2.26.1",
   "turbo": "^1.10.1"
  }
 }
