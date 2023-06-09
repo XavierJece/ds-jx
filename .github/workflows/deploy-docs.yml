@@ -26,6 +26,6 @@ jobs:
 
       - name: Deploy Storybook
         working-directory: ./packages/docs
-        run: storybook:publish
+        run: npm run storybook:publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
